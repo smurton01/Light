@@ -9,8 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var lightOn = true
 
     @IBAction func buttonPressed(_ sender: Any) {
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
