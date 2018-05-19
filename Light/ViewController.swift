@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     var lightOn = true
 
     @IBAction func buttonPressed(_ sender: Any) {
-        
+        lightOn = !lightOn
     }
     override func viewDidLoad() {
         super.viewDidLoad()
